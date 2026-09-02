@@ -1,0 +1,84 @@
+@model ResumeBuilder.Web.Models.DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h1 class="h3 mb-1">Resume Builder Dashboard</h1>
+        <p class="text-muted mb-0">Build, edit, preview, and export professional resumes.</p>
+    </div>
+    <a class="btn btn-primary" asp-controller="Resumes" asp-action="Create">
+        <i class="fa-solid fa-file-circle-plus me-1"></i> Create New Resume
+    </a>
+</div>
+
+<div class="row g-3 mb-4">
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0">
+            <div class="card-body">
+                <h2 class="h6 text-muted">Total Resumes</h2>
+                <p class="display-6 fw-bold mb-0">@Model.TotalResumes</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0">
+            <div class="card-body">
+                <h2 class="h6 text-muted">Last Modified (UTC)</h2>
+                <p class="mb-0 fw-semibold">@(Model.LastModifiedUtc?.ToString("yyyy-MM-dd HH:mm") ?? "N/A")</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0">
+            <div class="card-body">
+                <h2 class="h6 text-muted">Templates</h2>
+                <p class="mb-0">ATS, Modern, Executive</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card shadow-sm border-0">
+    <div class="card-header bg-white">
+        <h2 class="h5 mb-0">Recent Resumes</h2>
+    </div>
+    <div class="card-body p-0">
+        @if (!Model.RecentResumes.Any())
+        {
+            <p class="p-4 mb-0 text-muted">No resumes found. Create your first resume to get started.</p>
+        }
+        else
+        {
+            <div class="table-responsive">
+                <table class="table table-hover mb-0 align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Title</th>
+                            <th>Name</th>
+                            <th>Professional Title</th>
+                            <th>Last Updated</th>
+                            <th class="text-end">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.RecentResumes)
+                        {
+                            <tr>
+                                <td>@item.Title</td>
+                                <td>@item.FullName</td>
+                                <td>@item.ProfessionalTitle</td>
+                                <td>@item.UpdatedUtc.ToString("yyyy-MM-dd")</td>
+                                <td class="text-end">
+                                    <a class="btn btn-sm btn-outline-primary" asp-controller="Resumes" asp-action="Preview" asp-route-id="@item.Id">Preview</a>
+                                    <a class="btn btn-sm btn-outline-secondary" asp-controller="Resumes" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+</div>

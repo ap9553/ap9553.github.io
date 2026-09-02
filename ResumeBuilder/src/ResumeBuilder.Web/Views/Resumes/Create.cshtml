@@ -1,0 +1,23 @@
+@model ResumeBuilder.Web.Models.ResumeFormViewModel
+@{
+    ViewData["Title"] = "Create Resume";
+}
+
+<h1 class="h3 mb-3">Create Resume</h1>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body">
+        <form asp-action="Create" method="post" novalidate>
+            @Html.AntiForgeryToken()
+            <partial name="_ResumeForm" model="Model" />
+            <div class="mt-4 d-flex gap-2">
+                <button type="submit" class="btn btn-primary">Save Resume</button>
+                <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

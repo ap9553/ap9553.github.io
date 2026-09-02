@@ -1,0 +1,12 @@
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\bin\Debug\net10.0\ResumeBuilder.Domain.deps.json
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\bin\Debug\net10.0\ResumeBuilder.Domain.dll
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\bin\Debug\net10.0\ResumeBuilder.Domain.pdb
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\obj\Debug\net10.0\ResumeBuilder.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\obj\Debug\net10.0\ResumeBuilder.Domain.AssemblyInfoInputs.cache
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\obj\Debug\net10.0\ResumeBuilder.Domain.AssemblyInfo.cs
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\obj\Debug\net10.0\ResumeBuilder.Domain.csproj.CoreCompileInputs.cache
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\obj\Debug\net10.0\ResumeBuilder.Domain.sourcelink.json
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\obj\Debug\net10.0\ResumeBuilder.Domain.dll
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\obj\Debug\net10.0\refint\ResumeBuilder.Domain.dll
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\obj\Debug\net10.0\ResumeBuilder.Domain.pdb
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Domain\obj\Debug\net10.0\ref\ResumeBuilder.Domain.dll

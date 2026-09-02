@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ResumeBuilder.Application/ResumeBuilder.Application.csproj" />
+    <Project Path="src/ResumeBuilder.Domain/ResumeBuilder.Domain.csproj" />
+    <Project Path="src/ResumeBuilder.Infrastructure/ResumeBuilder.Infrastructure.csproj" />
+    <Project Path="src/ResumeBuilder.Web/ResumeBuilder.Web.csproj" />
+  </Folder>
+</Solution>

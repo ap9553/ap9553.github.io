@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PRBkZy0RWPc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AustinPerumula\\source\\repos\\ap9553.github.io\\ResumeBuilder\\src\\ResumeBuilder.Application\\ResumeBuilder.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AustinPerumula\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.10\\microsoft.extensions.dependencyinjection.abstractions.10.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

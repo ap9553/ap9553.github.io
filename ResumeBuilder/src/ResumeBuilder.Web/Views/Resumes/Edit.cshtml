@@ -1,0 +1,24 @@
+@model ResumeBuilder.Web.Models.ResumeFormViewModel
+@{
+    ViewData["Title"] = "Edit Resume";
+}
+
+<h1 class="h3 mb-3">Edit Resume</h1>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body">
+        <form asp-action="Edit" method="post" novalidate>
+            @Html.AntiForgeryToken()
+            <input asp-for="Id" type="hidden" />
+            <partial name="_ResumeForm" model="Model" />
+            <div class="mt-4 d-flex gap-2">
+                <button type="submit" class="btn btn-primary">Update Resume</button>
+                <a asp-action="Index" class="btn btn-outline-secondary">Back</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

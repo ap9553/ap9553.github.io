@@ -1,0 +1,16 @@
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\obj\Debug\net10.0\ResumeBuilder.Application.csproj.AssemblyReference.cache
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\obj\Debug\net10.0\ResumeBuilder.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\obj\Debug\net10.0\ResumeBuilder.Application.AssemblyInfoInputs.cache
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\obj\Debug\net10.0\ResumeBuilder.Application.AssemblyInfo.cs
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\obj\Debug\net10.0\ResumeBuilder.Application.csproj.CoreCompileInputs.cache
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\obj\Debug\net10.0\ResumeBuilder.Application.sourcelink.json
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\bin\Debug\net10.0\ResumeBuilder.Application.deps.json
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\bin\Debug\net10.0\ResumeBuilder.Application.dll
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\bin\Debug\net10.0\ResumeBuilder.Application.pdb
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\bin\Debug\net10.0\ResumeBuilder.Domain.dll
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\bin\Debug\net10.0\ResumeBuilder.Domain.pdb
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\obj\Debug\net10.0\ResumeBu.56B2C483.Up2Date
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\obj\Debug\net10.0\ResumeBuilder.Application.dll
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\obj\Debug\net10.0\refint\ResumeBuilder.Application.dll
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\obj\Debug\net10.0\ResumeBuilder.Application.pdb
+C:\Users\AustinPerumula\source\repos\ap9553.github.io\ResumeBuilder\src\ResumeBuilder.Application\obj\Debug\net10.0\ref\ResumeBuilder.Application.dll

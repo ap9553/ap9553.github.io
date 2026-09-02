@@ -1,0 +1,72 @@
+@model ResumeBuilder.Web.Models.ResumeFormViewModel
+
+<div class="row g-3">
+    <div class="col-md-6">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="col-md-3">
+        <label asp-for="FirstName" class="form-label"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="col-md-3">
+        <label asp-for="LastName" class="form-label"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="ProfessionalTitle" class="form-label"></label>
+        <input asp-for="ProfessionalTitle" class="form-control" />
+        <span asp-validation-for="ProfessionalTitle" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Phone" class="form-label"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Location" class="form-label"></label>
+        <input asp-for="Location" class="form-control" />
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="LinkedInUrl" class="form-label"></label>
+        <input asp-for="LinkedInUrl" class="form-control" />
+        <span asp-validation-for="LinkedInUrl" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="GitHubUrl" class="form-label"></label>
+        <input asp-for="GitHubUrl" class="form-control" />
+        <span asp-validation-for="GitHubUrl" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="PortfolioUrl" class="form-label"></label>
+        <input asp-for="PortfolioUrl" class="form-control" />
+        <span asp-validation-for="PortfolioUrl" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="ProfilePhotoPath" class="form-label"></label>
+        <input asp-for="ProfilePhotoPath" class="form-control" />
+    </div>
+    <div class="col-md-6">
+        <label asp-for="TemplateType" class="form-label"></label>
+        <select asp-for="TemplateType" asp-items="ViewBag.TemplateOptions" class="form-select"></select>
+    </div>
+    <div class="col-md-6 d-flex align-items-end">
+        <div class="form-check">
+            <input asp-for="IsDarkMode" class="form-check-input" />
+            <label asp-for="IsDarkMode" class="form-check-label"></label>
+        </div>
+    </div>
+    <div class="col-12">
+        <label asp-for="ProfessionalSummary" class="form-label"></label>
+        <textarea asp-for="ProfessionalSummary" rows="4" class="form-control"></textarea>
+    </div>
+</div>

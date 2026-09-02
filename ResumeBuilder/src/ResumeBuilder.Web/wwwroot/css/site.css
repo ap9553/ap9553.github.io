@@ -1,0 +1,44 @@
+html {
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f8f9fc 0%, #ffffff 100%);
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem #fff, 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.card {
+  border-radius: 0.9rem;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+@media print {
+  header,
+  footer,
+  .btn {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+  }
+}
